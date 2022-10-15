@@ -1,0 +1,49 @@
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem 3rem;
+  position: absolute;
+  width: 100%;
+  /* height: 100%; */
+  top: 0;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.logo_left,
+.logo_right {
+  font-family: "Bangers", cursive;
+  padding: 1px 4px;
+}
+
+.logo_right {
+  background-color: #fff;
+  color: #000;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menuItems {
+  margin: 0 1rem;
+  padding: 0.25rem 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.signupBtn {
+  color: #000;
+  background-color: white;
+}
+
+.loginBtn {
+  border: 1px solid #fff;
+}
