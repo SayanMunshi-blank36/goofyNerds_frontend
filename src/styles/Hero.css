@@ -34,7 +34,7 @@
 }
 
 .heroLogo_right {
-  background-color: #fff;
+  background-color: #00ff9f;
   color: #000;
 }
 
@@ -48,6 +48,13 @@
 .icon_items {
   font-size: 20px;
   margin-top: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.icon_items:hover {
+  color: #00ff9f;
+  transform: translateX(-5px);
 }
 
 .scroll {
@@ -92,7 +99,7 @@
   /* font-size: clamp(40px, 10vw, 100px); */
   /* line-height: 1; */
   display: inline-block;
-  color: #fff;
+  color: #00ff9f;
   z-index: 2;
   /* letter-spacing: 10px; */
 
@@ -103,7 +110,7 @@
 
 .demo {
   height: 100px;
-  background: #fff;
+  background: #00ff9f;
 }
 
 .layers {
@@ -121,13 +128,13 @@
 .layers::before {
   top: 10px;
   left: 15px;
-  color: #e0287d;
+  color: #00ff9f;
 }
 
 .layers::after {
   top: 5px;
   left: -10px;
-  color: #1bc7fb;
+  color: #001eff;
 }
 
 .single-path {
@@ -518,31 +525,31 @@
 @keyframes font {
   0% {
     font-weight: 100;
-    color: #e0287d;
+    color: #00ff9f;
     filter: blur(3px);
   }
 
   20% {
     font-weight: 500;
-    color: #fff;
+    color: #d600ff;
     filter: blur(0);
   }
 
   50% {
     font-weight: 300;
-    color: #1bc7fb;
+    color: #001eff;
     filter: blur(2px);
   }
 
   60% {
     font-weight: 700;
-    color: #fff;
+    color: #d600ff;
     filter: blur(0);
   }
 
   90% {
     font-weight: 500;
-    color: #e0287d;
+    color: #00ff9f;
     filter: blur(6px);
   }
 }
